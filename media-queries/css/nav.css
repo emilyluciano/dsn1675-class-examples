@@ -11,7 +11,7 @@ html {
     -mos-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100;
-} /* this is too make font larger or smaller */
+} 
 
 *, *before, *after {
     box-sizing: inherit;
@@ -34,3 +34,8 @@ html {
     text-decoration: none;
 }
 
+@media only screen and (min-width: ) {
+
+
+
+}
