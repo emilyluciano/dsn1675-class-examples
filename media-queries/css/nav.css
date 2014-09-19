@@ -17,33 +17,20 @@ html {
     box-sizing: inherit;
 }
 
-.title {
-    color: red;
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #ccc;
 }
 
-@media only screen and (min-width: 400px) { /* important is the mid-width */
-    
-    .title {
-        color: green;
-        font-size: 10rem; /* changes the width of the 700px one too, adds everything ontop of what was there */
-} /* always finish the small screen first, dont do larger things first - small screen first work your way up for the large screen */
-    
-@media only screen and (min-width: 700px) {
-    
-    .title {
-        color: blue;
-    }
+.nav li {
+    border-top: 1px solid #666;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.nav a {
+    display: block;
+    padding: 0.5rem 9.75em;
+    text-decoration: none;
+}
 
