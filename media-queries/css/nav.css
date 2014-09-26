@@ -30,12 +30,38 @@ html {
 
 .nav a {
     display: block;
-    padding: 0.5rem 9.75em;
+    padding: 0.5rem 0.75em;
     text-decoration: none;
 }
 
-@media only screen and (min-width: ) {
+@media only screen and (min-width: 20em) { /* em are multiplied by the font size itself. REM r= means root , em multiple elemnt itself , always changes sizes, just always use rem for font sizes. */
+/* media quieries DO NOT SUPPORT REMS, you have to use ems for min-width */
 
+    
+    .nav {
+        text-align: center;
+    }
+    
+    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+}
+
+@media only screen and (min-width: 44em) {
+    
+    .nav {
+        float: left;
+        width: 30%;
+    }
+
+    .nav li {
+        display: block;
+        border-top: 1px solid #666;
+}
 
 
 }
+
