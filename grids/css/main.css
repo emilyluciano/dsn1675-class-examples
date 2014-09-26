@@ -17,10 +17,32 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
 .grid {
     background-color: red;
 }
 
 .unit {
     background-color: green;
+    float: left;
+    width: 33.333%;
 }
+
+.gutter {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
