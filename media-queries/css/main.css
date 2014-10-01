@@ -13,7 +13,7 @@ html {
     text-size-adjust: 100;
 } /* this is too make font larger or smaller */
 
-*, *before, *after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
